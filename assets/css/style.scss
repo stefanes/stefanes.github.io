@@ -10,12 +10,18 @@ h2 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 96px;
+  font-weight: 300;
 }
 
 h2 {
+  font-size: 36px;
   font-weight: 300;
+}
+
+h3 {
   font-size: 24px;
+  font-weight: 300;
 }
 
 a {
@@ -33,10 +39,6 @@ a:focus {
 header {
   display: none;
 }
-
-// section {
-//   float: left;
-// }
 
 section {
   position: absolute;
