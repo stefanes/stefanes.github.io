@@ -3,21 +3,6 @@
 
 @import "{{ site.theme }}";
 
-header {
-  display: none;
-}
-
-// section {
-//   float: left;
-// }
-
-section {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 h1,
 h2 {
   color: #fff;
@@ -37,6 +22,21 @@ a:focus {
   color: #069;
   font-weight: unset;
   text-decoration: underline;
+}
+
+header {
+  display: none;
+}
+
+// section {
+//   float: left;
+// }
+
+section {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 body {
