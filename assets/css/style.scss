@@ -23,7 +23,8 @@ a {
 
 a:hover, a:focus {
     color: #069;
-    font-weight: bold;
+    /* font-weight: bold; */
+    text-decoration: underline;
 }
     
 body {
