@@ -13,6 +13,7 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
+    font-weight: 300;
 }
 
 a {
@@ -29,7 +30,6 @@ body {
     background: url("../images/bg.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
-    font-weight: 300;
 }
 
 footer {
