@@ -1,8 +1,8 @@
-# Greetings!
+# Welcome
 
 ---
 
-## Links:
+## Links
 
 ### [Azure](https://portal.azure.com)
 
