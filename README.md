@@ -8,4 +8,4 @@
 
 ### <a href="https://dev.azure.com/AVEVA-VSTS" target="_blank">Azure DevOps</a>
 
-### <a href="https://github.com" target="_blank">GitHub</a>
+### <a href="https://github.com/login" target="_blank">GitHub</a>
