@@ -32,7 +32,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
   /* color: #069; */
   color: white;
   font-weight: unset;

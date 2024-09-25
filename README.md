@@ -6,6 +6,6 @@
 
 ### <a href="https://portal.azure.com" target="_blank">Azure</a>
 
-### [AVEVA-VSTS](https://dev.azure.com/AVEVA-VSTS)
+### <a href="https://dev.azure.com/AVEVA-VSTS" target="_blank">Azure DevOps</a>
 
-### [GitHub](https://github.com)
+### <a href="https://github.com" target="_blank">GitHub</a>
