@@ -12,4 +12,4 @@
 
 ---
 
-### Dev Services Tech Radar - <a href="https://ashy-water-00da7b803.5.azurestaticapps.net" target="_blank">`prod`</a> | <a href="https://ashy-water-00da7b803-preprod.azurestaticapps.net" target="_blank">`preprod`</a> | <a href="https://ashy-water-00da7b803-review.azurestaticapps.net" target="_blank">`review`</a>
+### Tech Radar - <a href="https://ashy-water-00da7b803.5.azurestaticapps.net" target="_blank">`prod`</a> | <a href="https://ashy-water-00da7b803-preprod.westeurope.5.azurestaticapps.net" target="_blank">`preprod`</a> | <a href="https://ashy-water-00da7b803-review.westeurope.5.azurestaticapps.net" target="_blank">`review`</a>
