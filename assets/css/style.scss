@@ -28,7 +28,8 @@ h3 {
 }
 
 a {
-  color: white;
+  // color: white;
+  color: skyblue;
   text-decoration: none;
 }
 
@@ -38,8 +39,8 @@ a:focus {
   // color: white;
   color: skyblue;
   font-weight: unset;
-  // text-decoration: underline;
-  text-decoration: none;
+  text-decoration: underline;
+  // text-decoration: none;
 }
 
 header {
