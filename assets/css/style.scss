@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+:root {
+  // --link-color: white;
+  --link-color: lightblue;
+}
+
 h1,
 h2,
 h3 {
@@ -36,16 +41,14 @@ pre {
 }
 
 a {
-  color: white;
-  // color: lightblue;
+  color: var(--link-color);
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
   // color: #069;
-  color: white;
-  // color: lightblue;
+  color: var(--link-color);
   // font-weight: unset;
   font-weight: 600;
   // text-decoration: underline;
