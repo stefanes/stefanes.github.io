@@ -52,8 +52,11 @@ a:focus {
   text-decoration: none;
 }
 
-header {
-  display: none;
+body {
+  background: url("../images/1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
 
 section {
@@ -62,15 +65,4 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-body {
-  background: url("../images/autumn.jpg") no-repeat center center fixed;
-  background-size: cover;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Helvetica Neue", Arial, sans-serif;
-}
-
-footer {
-  display: none;
 }
