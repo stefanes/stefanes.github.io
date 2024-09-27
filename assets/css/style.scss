@@ -34,10 +34,12 @@ h3 {
   font-size: var(--link-font-size);
   font-weight: var(--link-font-weight);
   line-height: var(--link-line-height);
+  margin: 20px 0 0;
 }
 
 table {
   table-layout: fixed;
+  margin: unset;
 }
 
 th {
