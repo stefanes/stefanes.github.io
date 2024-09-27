@@ -35,17 +35,16 @@ h3 {
   line-height: var(--link-font-size);
 }
 
-th,
+th {
+  display: none;
+}
+
 td {
   color: white;
   font-size: var(--link-font-size);
   font-weight: var(--link-font-weight);
   line-height: var(--link-font-size);
   border-bottom: none;
-  padding: none;
-}
-
-td {
   padding: 12px;
 }
 
