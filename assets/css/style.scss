@@ -37,10 +37,11 @@ h3 {
 
 th,
 td {
-  border-bottom: none;
+  color: white;
   font-size: var(--link-font-size);
   font-weight: var(--link-font-weight);
   line-height: var(--link-font-size);
+  border-bottom: none;
 }
 
 code,
