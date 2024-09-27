@@ -21,10 +21,18 @@
       </section>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript">
-      var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-      $('html').css({'background': 'url(../images/images/' + images[Math.floor(Math.random() * images.length)] + ') no-repeat center center fixed;'});
+      const images = [
+          'url("../images/autumn.jpg")',
+          'url("../images/spring.jpg")',
+          'url("../images/summer.jpg")',
+          'url("../images/winter.jpg")'
+      ];
+      function changeBackground() {
+          const randomIndex = Math.floor(Math.random() * images.length);
+          document.body.style.backgroundImage = images[randomIndex];
+      }
+      changeBackground();
     </script>
   </body>
 </html>
