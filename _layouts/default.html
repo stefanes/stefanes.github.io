@@ -23,21 +23,21 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script type="text/javascript">
       const images = [
-          'url("assets/images/autumn.jpg")',
-          'url("assets/images/canyon.jpg")',
-          'url("assets/images/car.jpg")',
-          'url("assets/images/fog.jpg")',
-          'url("assets/images/icy-canal.jpg")',
-          'url("assets/images/lake.jpg")',
-          'url("assets/images/mountains.jpg")',
-          'url("assets/images/railway.jpg")',
-          'url("assets/images/summer.jpg")',
-          'url("assets/images/tree-on-hill.jpg")',
-          'url("assets/images/winter.jpg")',
+          'autumn.jpg',
+          'canyon.jpg',
+          'car.jpg',
+          'fog.jpg',
+          'icy-canal.jpg',
+          'lake.jpg',
+          'mountains.jpg',
+          'railway.jpg',
+          'summer.jpg',
+          'tree-on-hill.jpg',
+          'winter.jpg',
       ];
       function changeBackground() {
           const randomIndex = Math.floor(Math.random() * images.length);
-          document.body.style.backgroundImage = images[randomIndex];
+          document.body.style.backgroundImage = 'linear-gradient(var(--linear-gradient), var(--linear-gradient)), url("assets/images/' + images[randomIndex] + '")';
       }
       changeBackground();
     </script>
