@@ -9,6 +9,7 @@
   --linear-gradient: rgba(0, 0, 0, 0.3);
   --link-font-size: 24px;
   --link-font-weight: 400;
+  --link-line-height: 30px;
 }
 
 h1,
@@ -32,7 +33,7 @@ h2 {
 h3 {
   font-size: var(--link-font-size);
   font-weight: var(--link-font-weight);
-  line-height: var(--link-font-size);
+  line-height: var(--link-line-height);
 }
 
 table {
@@ -47,7 +48,7 @@ td {
   color: white;
   font-size: var(--link-font-size);
   font-weight: var(--link-font-weight);
-  line-height: var(--link-font-size);
+  line-height: var(--link-line-height);
   border-bottom: none;
   padding: 12px;
 }
@@ -89,4 +90,6 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: unset;
+  padding-bottom: unset;
 }
