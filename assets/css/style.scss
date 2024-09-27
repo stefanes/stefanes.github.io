@@ -35,6 +35,10 @@ h3 {
   line-height: var(--link-font-size);
 }
 
+table {
+  table-layout: fixed;
+}
+
 th {
   display: none;
 }
