@@ -6,10 +6,12 @@
 :root {
   --default-color: white;
   --default-brightness: 0.4;
-  --linear-gradient: rgba(0, 0, 0, 0.4);
+  --default-padding: 10px;
+  --default-margin: 20px;
 
   --font-weight-thin: 300;
   --font-weight-bold: 400;
+  --font-size-xsmall: 14px;
   --font-size-small: 24px;
   --font-size-medium: 36px;
   --font-size-large: 80px;
@@ -17,6 +19,7 @@
   --line-height-medium: 36px;
   --line-height-large: 80px;
 
+  --linear-gradient: rgba(0, 0, 0, 0.4);
   --link-color: lightblue;
 }
 
@@ -25,7 +28,7 @@ h2,
 h3,
 h4 {
   color: var(--default-color);
-  margin: 20px 0;
+  margin: var(--default-margin) 0;
 }
 
 h1 {
@@ -50,7 +53,7 @@ h4 {
   font-size: var(--font-size-small);
   line-height: var(--line-height-small);
   font-weight: var(--font-weight-thin);
-  margin: 20px 0 0;
+  margin: var(--default-margin) 0 0;
 }
 
 table {
@@ -69,7 +72,7 @@ td {
   line-height: var(--line-height-small);
   font-weight: var(--font-weight-thin);
   border-bottom: none;
-  padding-bottom: 10px;
+  padding-bottom: var(--default-padding);
 }
 
 code,
@@ -112,8 +115,8 @@ section {
 #ip-address {
   color: var(--default-color);
   filter: brightness(var(--default-brightness));
-  font-size: 14px;
+  font-size: var(--font-size-xsmall);
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: var(--default-padding);
+  right: var(--default-padding);
 }
