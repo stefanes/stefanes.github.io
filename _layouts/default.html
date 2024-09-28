@@ -17,7 +17,8 @@
       <section>
 
         <h1 id="clock"></h1>
-        <hr>
+        <hr/>
+        <h2 id="date"></h2>
 
         {{ content }}
 
@@ -53,13 +54,33 @@
     <script type="text/javascript">
       (function () {
         var clockElement = document.getElementById("clock");
-        function updateClock ( clock ) {
-          clock.innerHTML = new Date().toLocaleTimeString();
+        function updateClock(clock) {
+          clock.innerHTML = new Date().toLocaleTimeString(["en-SE"], {
+            hour: "2-digit",
+            minute: "2-digit"
+          });
         }
+        updateClock(clockElement);
         setInterval(function () {
-            updateClock( clockElement );
+          updateClock(clockElement);
         }, 1000);
-      }());
+      })();
+    </script>
+    <script type="text/javascript">
+      (function () {
+        var dateElement = document.getElementById("date");
+        function updateDate(date) {
+          date.innerHTML = new Date().toLocaleDateString(["en-SE"], {
+            weekday: "long",
+            day: "numeric",
+            month: "long",
+          });
+        }
+        updateDate(dateElement);
+        // setInterval(function () {
+        //   updateDate(dateElement);
+        // }, 1000);
+      })();
     </script>
   </body>
 </html>
