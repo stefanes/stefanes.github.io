@@ -109,7 +109,8 @@ section {
 }
 
 #ip-address {
-  color: gray;
+  color: var(--default-color);
+  filter: brightness(0.5);
   font-size: 14px;
   position: absolute;
   bottom: 10px;
