@@ -109,10 +109,10 @@ section {
 }
 
 #ip-address {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
   color: var(--default-color);
   filter: brightness(0.5);
   font-size: 14px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
