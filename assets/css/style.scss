@@ -4,12 +4,13 @@
 @import "{{ site.theme }}";
 
 :root {
-  --link-color: lightblue;
   --linear-gradient: rgba(0, 0, 0, 0.3);
+  --font-weight-thin: 300;
+  --font-weight-bold: 400;
   --header-font-size: 36px;
   --header-line-height: 36px;
+  --link-color: lightblue;
   --link-font-size: 24px;
-  --link-font-weight: 300;
   --link-line-height: 30px;
 }
 
@@ -24,25 +25,25 @@ h4 {
 h1 {
   font-size: 80px;
   line-height: 80px;
-  font-weight: 300;
+  font-weight: var(--link-font-thin);
 }
 
 h2 {
   font-size: var(--header-font-size);
   line-height: var(--header-line-height);
-  font-weight: 300;
+  font-weight: var(--link-font-thin);
 }
 
 h3 {
   font-size: var(--link-font-size);
   line-height: var(--link-line-height);
-  font-weight: 400;
+  font-weight: var(--font-weight-bold);
 }
 
 h4 {
   font-size: var(--link-font-size);
   line-height: var(--link-line-height);
-  font-weight: var(--link-font-weight);
+  font-weight: var(var(--font-weight-thin));
   margin: 20px 0 0;
 }
 
@@ -60,7 +61,7 @@ td {
   color: white;
   font-size: var(--link-font-size);
   line-height: var(--link-line-height);
-  font-weight: var(--link-font-weight);
+  font-weight: var(var(--font-weight-thin));
   border-bottom: none;
   padding-bottom: 10px;
 }
