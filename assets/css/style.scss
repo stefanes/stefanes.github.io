@@ -9,13 +9,14 @@
   --header-font-size: 36px;
   --header-line-height: 36px;
   --link-font-size: 24px;
-  --link-font-weight: 400;
+  --link-font-weight: 300;
   --link-line-height: 30px;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: white;
   margin: 20px 0;
 }
@@ -29,13 +30,13 @@ h1 {
 h2 {
   font-size: var(--header-font-size);
   line-height: var(--header-line-height);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h3 {
-  font-size: var(--header-font-size);
-  line-height: var(--header-line-height);
-  font-weight: 300;
+  font-size: var(--link-font-size);
+  line-height: var(--link-line-height);
+  font-weight: 400;
 }
 
 h4 {
