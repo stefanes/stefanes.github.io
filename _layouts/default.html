@@ -64,7 +64,7 @@
         updateTime(timeElement);
         setInterval(function () {
           updateTime(timeElement);
-        }, 1000); /* Update every second */
+        }, 1000); /* update every second */
       })();
     </script>
     <script type="text/javascript">
@@ -80,7 +80,7 @@
         updateDate(dateElement);
         setInterval(function () {
           updateDate(dateElement);
-        }, 3600000); /* Update every hour */
+        }, 3600000); /* update every hour */
       })();
     </script>
     <script>
@@ -88,7 +88,6 @@
         fetch("https://api.ipify.org?format=json")
           .then((response) => response.json())
           .then((data) => {
-            // Display the IP address on the screen
             document.getElementById("ip-address").textContent = data.ip;
           })
           .catch((error) => {

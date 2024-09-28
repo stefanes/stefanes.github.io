@@ -110,6 +110,7 @@ section {
   text-align: center;
   width: unset;
   padding-bottom: unset;
+  border-style: none; /* remove border on mobile */
 }
 
 #ip-address {
