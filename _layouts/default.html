@@ -63,7 +63,7 @@
         updateClock(clockElement);
         setInterval(function () {
           updateClock(clockElement);
-        }, 1000);
+        }, 1000); /* Update every second */
       })();
     </script>
     <script type="text/javascript">
@@ -77,9 +77,9 @@
           });
         }
         updateDate(dateElement);
-        // setInterval(function () {
-        //   updateDate(dateElement);
-        // }, 1000);
+        setInterval(function () {
+          updateDate(dateElement);
+        }, 3600000); /* Update every hour */
       })();
     </script>
   </body>
