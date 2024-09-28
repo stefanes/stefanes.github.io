@@ -16,7 +16,10 @@
     <div class="wrapper">
       <section>
 
-      {{ content }}
+        <h1 id="clock"></h1>
+        <hr>
+
+        {{ content }}
 
       </section>
     </div>
@@ -46,6 +49,17 @@
           document.body.style.backgroundImage = 'linear-gradient(var(--linear-gradient), var(--linear-gradient)), url("assets/images/' + images[randomIndex] + '")';
       }
       changeBackground();
+    </script>
+    <script type="text/javascript">
+      (function () {
+        var clockElement = document.getElementById("clock");
+        function updateClock ( clock ) {
+          clock.innerHTML = new Date().toLocaleTimeString();
+        }
+        setInterval(function () {
+            updateClock( clockElement );
+        }, 1000);
+      }());
     </script>
   </body>
 </html>

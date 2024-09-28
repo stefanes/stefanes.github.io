@@ -77,8 +77,9 @@ a:focus {
   color: var(--link-color);
   font-weight: unset;
   // font-weight: 600;
-  text-decoration: underline;
+  // text-decoration: underline;
   // text-decoration: none;
+  text-decoration: dotted;
 }
 
 body {
