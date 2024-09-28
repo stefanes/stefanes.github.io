@@ -4,8 +4,9 @@
 @import "{{ site.theme }}";
 
 :root {
-  --linear-gradient: rgba(0, 0, 0, 0.4);
   --default-color: white;
+  --default-brightness: 0.4;
+  --linear-gradient: rgba(0, 0, 0, 0.4);
 
   --font-weight-thin: 300;
   --font-weight-bold: 400;
@@ -85,7 +86,7 @@ a {
 a:hover,
 a:focus {
   color: var(--link-color);
-  filter: brightness(0.5);
+  filter: brightness(var(--default-brightness));
   font-weight: unset;
   text-decoration: none;
 }
@@ -110,7 +111,7 @@ section {
 
 #ip-address {
   color: var(--default-color);
-  filter: brightness(0.5);
+  filter: brightness(var(--default-brightness));
   font-size: 14px;
   position: absolute;
   bottom: 10px;
