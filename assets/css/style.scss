@@ -5,13 +5,17 @@
 
 :root {
   --linear-gradient: rgba(0, 0, 0, 0.3);
+
   --font-weight-thin: 300;
   --font-weight-bold: 400;
-  --header-font-size: 36px;
-  --header-line-height: 36px;
+  --font-size-small: 24px;
+  --font-size-medium: 36px;
+  --font-size-large: 80px;
+  --line-height-small: 30px;
+  --line-height-medium: 36px;
+  --line-height-large: 80px;
+
   --link-color: lightblue;
-  --link-font-size: 24px;
-  --link-line-height: 30px;
 }
 
 h1,
@@ -23,27 +27,27 @@ h4 {
 }
 
 h1 {
-  font-size: 80px;
-  line-height: 80px;
-  font-weight: var(--link-font-thin);
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+  font-weight: var(--font-weight-thin);
 }
 
 h2 {
-  font-size: var(--header-font-size);
-  line-height: var(--header-line-height);
-  font-weight: var(--link-font-thin);
-}
-
-h3 {
-  font-size: var(--link-font-size);
-  line-height: var(--link-line-height);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
   font-weight: var(--font-weight-bold);
 }
 
+h3 {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  font-weight: var(--font-weight-thin);
+}
+
 h4 {
-  font-size: var(--link-font-size);
-  line-height: var(--link-line-height);
-  font-weight: var(var(--font-weight-thin));
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  font-weight: var(--font-weight-thin);
   margin: 20px 0 0;
 }
 
@@ -59,9 +63,9 @@ th {
 
 td {
   color: white;
-  font-size: var(--link-font-size);
-  line-height: var(--link-line-height);
-  font-weight: var(var(--font-weight-thin));
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  font-weight: var(--font-weight-thin);
   border-bottom: none;
   padding-bottom: 10px;
 }
