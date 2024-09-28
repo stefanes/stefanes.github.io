@@ -22,6 +22,7 @@
 
         {{ content }}
 
+        <p id="ip-address"></p>
       </section>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
@@ -80,6 +81,19 @@
         setInterval(function () {
           updateDate(dateElement);
         }, 3600000); /* Update every hour */
+      })();
+    </script>
+    <script>
+      (function () {
+        fetch("https://api.ipify.org?format=json")
+          .then((response) => response.json())
+          .then((data) => {
+            // Display the IP address on the screen
+            document.getElementById("ip-address").textContent = data.ip;
+          })
+          .catch((error) => {
+            console.error("Error fetching IP address:", error);
+          });
       })();
     </script>
   </body>
