@@ -5,6 +5,7 @@
 
 :root {
   --linear-gradient: rgba(0, 0, 0, 0.4);
+  --default-color: white;
 
   --font-weight-thin: 300;
   --font-weight-bold: 400;
@@ -22,7 +23,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: white;
+  color: var(--default-color);
   margin: 20px 0;
 }
 
@@ -62,7 +63,7 @@ th {
 }
 
 td {
-  color: white;
+  color: var(--default-color);
   font-size: var(--font-size-small);
   line-height: var(--line-height-small);
   font-weight: var(--font-weight-thin);
@@ -105,4 +106,13 @@ section {
   text-align: center;
   width: unset;
   padding-bottom: unset;
+}
+
+#ip-address {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: var(--default-color);
+  filter: brightness(0.5);
+  font-size: var(--font-size-small);
 }
