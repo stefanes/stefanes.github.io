@@ -74,10 +74,10 @@ a:hover,
 a:focus {
   // color: #069;
   color: var(--link-color);
-  // font-weight: unset;
-  font-weight: 600;
-  // text-decoration: underline;
-  text-decoration: none;
+  font-weight: unset;
+  // font-weight: 600;
+  text-decoration: underline;
+  // text-decoration: none;
 }
 
 body {
