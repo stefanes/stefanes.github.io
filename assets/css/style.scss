@@ -119,6 +119,6 @@ section {
   font-size: var(--font-size-xsmall);
   position: absolute;
   right: 0;
-  bottom: 3rem;
-  margin: 0 1rem;
+  bottom: var(--default-padding);
+  margin: 0 var(--default-padding);
 }
