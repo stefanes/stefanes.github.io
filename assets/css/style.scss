@@ -84,16 +84,15 @@ pre {
 }
 
 a,
+a:hover,
 a:focus {
   color: var(--link-color);
+  font-weight: unset;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--link-color);
   filter: brightness(var(--default-brightness));
-  font-weight: unset;
-  text-decoration: none;
 }
 
 body {
