@@ -12,6 +12,7 @@
   --font-weight-thin: 300;
   --font-weight-bold: 400;
   --font-size-xsmall: 14px;
+  --font-size-smaller: 22px;
   --font-size-small: 24px;
   --font-size-medium: 36px;
   --font-size-large: 80px;
@@ -77,8 +78,9 @@ td {
 
 code,
 pre {
-  font-family: Courier New, monospace;
   color: unset;
+  font-family: Courier New, monospace;
+  font-size: var(--font-size-smaller);
 }
 
 a {
