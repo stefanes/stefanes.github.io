@@ -83,13 +83,13 @@ pre {
   font-size: var(--font-size-smaller);
 }
 
-a {
+a,
+a:focus {
   color: var(--link-color);
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
+a:hover {
   color: var(--link-color);
   filter: brightness(var(--default-brightness));
   font-weight: unset;
