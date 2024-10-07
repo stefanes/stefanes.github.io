@@ -29,48 +29,5 @@
     <script src="{{ "/assets/js/change-background.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/time-and-date.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/ip-address.js" | relative_url }}"></script>
-    <!-- <script type="text/javascript">
-      (function () {
-        var timeElement = document.getElementById("time");
-        function updateTime(time) {
-          time.innerHTML = new Date().toLocaleTimeString(["en-SE"], {
-            hour: "2-digit",
-            minute: "2-digit"
-          });
-        }
-        updateTime(timeElement);
-        setInterval(function () {
-          updateTime(timeElement);
-        }, 1000); /* update every second */
-      })();
-    </script> -->
-    <!-- <script type="text/javascript">
-      (function () {
-        var dateElement = document.getElementById("date");
-        function updateDate(date) {
-          date.innerHTML = new Date().toLocaleDateString(["en-SE"], {
-            weekday: "long",
-            day: "numeric",
-            month: "long",
-          });
-        }
-        updateDate(dateElement);
-        setInterval(function () {
-          updateDate(dateElement);
-        }, 3600000); /* update every hour */
-      })();
-    </script> -->
-    <!-- <script>
-      (function () {
-        fetch("https://ipwho.is")
-          .then((response) => response.json())
-          .then((data) => {
-            document.getElementById("ip-address").textContent = data.ip + ", " + data.city + ", " + data.country;
-          })
-          .catch((error) => {
-            console.error("Error fetching IP address:", error);
-          });
-      })();
-    </script> -->
   </body>
 </html>
