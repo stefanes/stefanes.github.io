@@ -26,34 +26,10 @@
     </div>
     <div id="ip-address"></div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/background.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/change-background.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/time-and-date.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/ip-address.js" | relative_url }}"></script>
     <!-- <script type="text/javascript">
-      const images = [
-          'alp-village.jpg',
-          'autumn-lake.jpg',
-          'autumn-trail.jpg',
-          'beach.jpg',
-          'canyon.jpg',
-          'coffee.jpg',
-          'cove.jpg',
-          'curves.jpg',
-          'fog.jpg',
-          'green-canyon.jpg',
-          'icy-canal.jpg',
-          'mountains.jpg',
-          'pier.jpg',
-          'railway.jpg',
-          'sunset.jpg',
-          'tree-on-hill.jpg',
-          'winter-lake.jpg',
-      ];
-      function changeBackground() {
-          const randomIndex = Math.floor(Math.random() * images.length);
-          document.body.style.backgroundImage = 'linear-gradient(var(--linear-gradient), var(--linear-gradient)), url("assets/img/' + images[randomIndex] + '")';
-      }
-      changeBackground();
-    </script> -->
-    <script type="text/javascript">
       (function () {
         var timeElement = document.getElementById("time");
         function updateTime(time) {
@@ -67,8 +43,8 @@
           updateTime(timeElement);
         }, 1000); /* update every second */
       })();
-    </script>
-    <script type="text/javascript">
+    </script> -->
+    <!-- <script type="text/javascript">
       (function () {
         var dateElement = document.getElementById("date");
         function updateDate(date) {
@@ -83,8 +59,8 @@
           updateDate(dateElement);
         }, 3600000); /* update every hour */
       })();
-    </script>
-    <script>
+    </script> -->
+    <!-- <script>
       (function () {
         fetch("https://ipwho.is")
           .then((response) => response.json())
@@ -95,6 +71,6 @@
             console.error("Error fetching IP address:", error);
           });
       })();
-    </script>
+    </script> -->
   </body>
 </html>
