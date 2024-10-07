@@ -26,7 +26,8 @@
     </div>
     <div id="ip-address"></div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script type="text/javascript">
+    <script src="{{ "/assets/js/background.js" | relative_url }}"></script>
+    <!-- <script type="text/javascript">
       const images = [
           'alp-village.jpg',
           'autumn-lake.jpg',
@@ -48,10 +49,10 @@
       ];
       function changeBackground() {
           const randomIndex = Math.floor(Math.random() * images.length);
-          document.body.style.backgroundImage = 'linear-gradient(var(--linear-gradient), var(--linear-gradient)), url("assets/images/' + images[randomIndex] + '")';
+          document.body.style.backgroundImage = 'linear-gradient(var(--linear-gradient), var(--linear-gradient)), url("assets/img/' + images[randomIndex] + '")';
       }
       changeBackground();
-    </script>
+    </script> -->
     <script type="text/javascript">
       (function () {
         var timeElement = document.getElementById("time");
