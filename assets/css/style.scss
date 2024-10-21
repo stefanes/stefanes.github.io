@@ -119,8 +119,8 @@ section {
   filter: brightness(var(--default-brightness));
   font-size: var(--font-size-xsmall);
   position: absolute;
-  right: 0;
-  top: var(--default-padding);
+  left: 0;
+  bottom: var(--default-padding);
   margin: 0 var(--default-padding);
 }
 
