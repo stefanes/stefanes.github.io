@@ -114,6 +114,16 @@ section {
   border-style: none; /* remove border on mobile */
 }
 
+#search {
+  color: var(--default-color);
+  filter: brightness(var(--default-brightness));
+  font-size: var(--font-size-xsmall);
+  position: absolute;
+  right: 0;
+  top: var(--default-padding);
+  margin: 0 var(--default-padding);
+}
+
 #ip-address {
   color: var(--default-color);
   filter: brightness(var(--default-brightness));
