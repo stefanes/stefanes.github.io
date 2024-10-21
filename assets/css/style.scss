@@ -124,6 +124,12 @@ section {
   margin: 0 var(--default-padding);
 }
 
+#search:hover a {
+  filter: none;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
 #ip-address {
   color: var(--default-color);
   filter: brightness(var(--default-brightness));
