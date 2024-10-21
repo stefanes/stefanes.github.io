@@ -1,9 +1,9 @@
 ### <a href="https://start.duckduckgo.com/?kn=1&kav=1&k5=2&kah=se-sv&kl=wt-wt&k9=eeeeee&kp=-2&k1=-1&km=m&kaj=m&kak=-1&kay=b&kg=p&kap=-1&kad=en_GB&kaq=-1&kx=eeeeee&kau=-1&k21=222222&k7=282828&kax=-1&kpsb=-1&kao=-1&kbc=1&kdcm=1&kaa=aaaaaa&kbf=1&kae=d&ku=-1&ks=n&k18=-1" target="_blank">DuckDuckGo</a>
 
-|                                                                 |                                                                   |                                                                      |
-| --------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------- |
-|    <a href="https://mail.google.com" target="\_blank">Gmail</a> | <a href="https://mail.proton.me" target="_blank">Proton Mail</a>  | <a href="https://calendar.google.com" target="\_blank">Calendar</a>  |
-| <a href="https://www.ticktick.com" target="_blank">TickTick</a> | <a href="https://onedrive.live.com" target="\_blank">OneDrive</a> | <a href="https://start.wu-tang-lan.party" target="\_blank">Homer</a> |
+|                                                                  |                                                                   |                                                                      |
+| ---------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------- |
+| <a href="https://mail.proton.me" target="_blank">Proton Mail</a> |   <a href="https://mail.google.com" target="\_blank">Gmail</a>    | <a href="https://calendar.google.com" target="\_blank">Calendar</a>  |
+|  <a href="https://www.ticktick.com" target="_blank">TickTick</a> | <a href="https://onedrive.live.com" target="\_blank">OneDrive</a> | <a href="https://start.wu-tang-lan.party" target="\_blank">Homer</a> |
 
 ### Work
 
