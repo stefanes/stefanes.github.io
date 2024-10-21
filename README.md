@@ -1,3 +1,10 @@
+#### <a href="https://start.duckduckgo.com/" target="_blank">DuckDuckGo</a>
+
+|                                                                  |                                                                   |                                                                     |
+| ---------------------------------------------------------------: | :---------------------------------------------------------------- | :------------------------------------------------------------------ |
+| <a href="https://mail.proton.me" target="_blank">Proton Mail</a> | <a href="https://mail.google.com" target="\_blank">Gmail</a>      | <a href="https://calendar.google.com" target="\_blank">Calendar</a> |
+|  <a href="https://www.ticktick.com" target="_blank">TickTick</a> | <a href="https://onedrive.live.com" target="\_blank">OneDrive</a> | <a href="https://music.youtube.com" target="\_blank">Music</a>      |
+
 ### Work
 
 |                                                                                     |                                                                             |                                                                           |
@@ -10,10 +17,6 @@
 
 #### Tech Radar
 
-|                                                                                         |                                                                                                               |                                                                                                             |                                                                                                             |
-| --------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+|                                                                                         |                                                                                                               |                                                                                                             |                                                              |
+| --------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
 | <a href="https://ashy-water-00da7b803.5.azurestaticapps.net" target="_blank">`prod`</a> | <a href="https://ashy-water-00da7b803-preprod.westeurope.5.azurestaticapps.net" target="_blank">`preprod`</a> | <a href="https://ashy-water-00da7b803-review.westeurope.5.azurestaticapps.net" target="_blank">`review`</a> | <a href="http://localhost:3000/" target="_blank">`local`</a> |
-
-### Personal
-
-#### <a href="https://onedrive.live.com" target="_blank">OneDrive</a>
