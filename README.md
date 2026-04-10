@@ -7,9 +7,13 @@
 
 ### Work
 
-|                                                                                                                                   |                                                                             |                                                                           |                                                                                         |
-| --------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------- |
-| <a href="https://portal.azure.com/#servicemenu/Microsoft_Azure_Resources/ResourceManager/subscriptions" target="_blank">Azure</a> | <a href="https://dev.azure.com/AVEVA-VSTS" target="_blank">Azure DevOps</a> | <a href="https://github.com/enterprises/aveva" target="_blank">GitHub</a> | <a href="https://github.com/enterprises/aveva-testing" target="_blank">GitHub (EMU)</a> |
+|                                                                                                                                   |                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
+| <a href="https://portal.azure.com/#servicemenu/Microsoft_Azure_Resources/ResourceManager/subscriptions" target="_blank">Azure</a> | <a href="https://dev.azure.com/AVEVA-VSTS" target="_blank">Azure DevOps</a> |
+
+|                                                                           |                                                                                         |
+| :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------- |
+| <a href="https://github.com/enterprises/aveva" target="_blank">GitHub</a> | <a href="https://github.com/enterprises/aveva-testing" target="_blank">GitHub (EMU)</a> |
 
 |                                                                  |                                                                         |
 | ---------------------------------------------------------------: | :---------------------------------------------------------------------- |
